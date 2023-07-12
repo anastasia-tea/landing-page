@@ -1,13 +1,37 @@
 
+.body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/*
+General styling
+*/
+
 .header,
 .footer {
     background-color: #1F2937;
+    padding: 0 288px;
+    min-width: 400px;
+}
+
+.header {
+    padding-bottom: 48px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9F1F8;
+    margin: 0;
+    padding: 0;
+}
+
+#herotext {
+    margin: 0;
+    padding: 0;
 }
 
 a, #herotext {
@@ -37,18 +61,22 @@ button {
     border-radius: 8px;
     padding: 4px 16px;
     border-color: #3882F6;
+    font-weight: bold;
+    margin: 8px 0;
 }
 
-
-.action {
+.time {
     background-color: #3882F6;
     color: #F9F1F8;
+    margin: 0;
+    padding: 0;
 }
 
 h3 {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
+    text-align: center;
 }
 
 .quote {
@@ -65,14 +93,14 @@ h3 {
 .hold {
     color: #F9F1F8;
     background-color: #555557;
-    width: 400px;
-    height: 150px;
+    width: 500px;
+    height: 200px;
     text-align: center;
 }
 
 .footer {
     color: #F9F1F8;
-    padding: 16px 0;
+    padding: 12px 0;
 }
 
 .signup {
@@ -83,11 +111,135 @@ h3 {
 
 #thor {
     font-weight: bold;
+    text-align: right;
+    padding-right: 48px;
 }
 
 .blank {
-    width: 100px;
-    height: 100px;
+    width: 165px;
+    height: 165px;
     border: 2px solid #3882F6;
     border-radius: 8px;
+    margin: 0;
+}
+
+.random {
+    width:165px;
+    text-align: center;
+}
+
+#caption {
+    width: 145px;
+    margin: 0;
+    padding: 8px;
+}
+
+.info {
+    padding: 0 312px;
+}
+
+.quote {
+    padding: 48px 540px;
+    display: flex;
+    min-width: 400px;
+}
+
+.action {
+    padding: 60px 0;
+}
+
+
+/*
+Flexbox styling
+*/
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    flex-wrap: wrap;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    gap: 24px;
+}
+
+.title {
+    padding: 0;
+    margin: 0;
+}
+
+.hold {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.randoms {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    margin-bottom: 48px;
+}
+
+.action {
+    display: flex;
+}
+
+.time {
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    padding: 12px 60px;
+}
+
+h4, #click {
+    margin: 0;
+    padding: 2px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
 }
