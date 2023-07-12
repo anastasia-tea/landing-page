@@ -1,1 +1,93 @@
 
+.header,
+.footer {
+    background-color: #1F2937;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9F1F8;
+}
+
+a, #herotext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FaF8;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9F1F8;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 4px 16px;
+    border-color: #3882F6;
+}
+
+
+.action {
+    background-color: #3882F6;
+    color: #F9F1F8;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+#maybe {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.hold {
+    color: #F9F1F8;
+    background-color: #555557;
+    width: 400px;
+    height: 150px;
+    text-align: center;
+}
+
+.footer {
+    color: #F9F1F8;
+    padding: 16px 0;
+}
+
+.signup {
+    border: 2px solid #F9F1F8;
+    border-color: #F9F1F8;
+    border-radius: 8px;
+}
+
+#thor {
+    font-weight: bold;
+}
+
+.blank {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
