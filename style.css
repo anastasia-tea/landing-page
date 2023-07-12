@@ -1,14 +1,17 @@
-
 .body {
+    padding: 0;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
 }
 
 /*
 General styling
 */
+
+.box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
 
 .header,
 .footer {
