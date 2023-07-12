@@ -10,8 +10,8 @@
 .header {
     background-color: #1F2937;
     padding-bottom: 48px;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav {
@@ -97,6 +97,7 @@ button {
     justify-content: center;
     align-items: center;
     margin-left: 16px;
+    min-width: 300px;
 }
 
 .content {
