@@ -200,7 +200,7 @@ h4, #click {
 
 .footer {
     color: #F9F1F8;
-    padding: 12px 288px;
+    padding: 12px 0;
     background-color: #1F2937;
     display: flex;
     justify-content: center;
